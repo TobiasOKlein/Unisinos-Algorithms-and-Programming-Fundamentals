@@ -1,9 +1,10 @@
 /*
- * author: tobias klein
+ * Author: Tobias Klein
  *
- * structures if / else, switch / case
- *
- * list 3 - exercise 1
+ * Exercise: 1. Escreva um programa que leia dois números
+ * e efetue uma divisão, mas somente se o divisor for
+ * diferente de zero; quando isto ocorrer, é mostrada uma
+ * mensagem de erro apropriada.
  *
  */
 
