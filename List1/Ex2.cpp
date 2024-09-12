@@ -1,7 +1,7 @@
 /*
- * By: Tobias Klein
+ * Author: Tobias Klein
  *
- * 2. Escreva um programa em linguagem C que solicite o nome do usuário e, em seguida,
+ * Exercise: 2. Escreva um programa em linguagem C que solicite o nome do usuário e, em seguida,
  * imprima uma mensagem de boas-vindas na tela, utilizando o nome fornecido.
  * 
  */
