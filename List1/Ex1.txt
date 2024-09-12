@@ -1,6 +1,9 @@
 Author: Tobias Klein
 
-Exercise: 1. Utilizando o OnlineGDB, pesquise e implemente um programa que escreva na tela “Olá Mundo!” em 3 linguagens de programação diferentes. Qual é o comando de saída de dados nestas 3 linguagens?
+Exercise: 1. Utilizando o OnlineGDB, pesquise e implemente
+um programa que escreva na tela “Olá Mundo!” em 3 linguagens
+de programação diferentes. Qual é o comando de saída de dados
+nestas 3 linguagens?
 
 Linguagem C :
 
