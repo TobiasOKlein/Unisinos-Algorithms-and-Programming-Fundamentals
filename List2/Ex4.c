@@ -16,12 +16,12 @@ int main(){
 
     printf("\n Calculo de media final Unisinos \n Digite sua nota do Grau A : ");
     scanf("%f", &notaGA);
-    printf("\n Digite sua nota do Grau B : ");
+    printf(" Digite sua nota do Grau B : ");
     scanf("%f", &notaGB);
     
     if(!(0<=notaGA && notaGA<=10 && 0<=notaGB && notaGB<=10)){
-        printf("\n Nota invalida, sua nota deve ser entre 0 e 10.");
-        return 0;
+        printf("\n Nota invalida, sua nota deve ser entre 0 e 10.\n");
+        return -1;
     }
 
     mediaFinal = notaGA/3 + notaGB*2/3;
