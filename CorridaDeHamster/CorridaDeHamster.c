@@ -37,6 +37,16 @@ int main(){
 
     }
 
+    if(posHamster1==12 && posHamster2!=12){
+        printf("\n\n Hamster 1 foi o grande vencedor!!\n");
+    }
+    if(posHamster1!=12 && posHamster2==12){
+        printf("\n\n Hamster 2 foi o grande vencedor!!\n");
+    }
+    if(posHamster1==12 && posHamster2==12){
+        printf("\n\n Um Empate! Inacreditavel!!\n");
+    }
+
     return 0;
 }
 
