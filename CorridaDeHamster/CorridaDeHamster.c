@@ -14,36 +14,40 @@ int main(){
 
     srand(time(NULL));
 
-    int posHamster1 = 0, posHamster2 = 0, sorte;
-    char caminho[10] = "# ";
+    int caminho = 12, posHamster1 = 0, posHamster2 = 0, sorte;
+    char passos[10] = "# ";
 
-    while(posHamster1 != 12 && posHamster2 != 12){
+    while(posHamster1 != caminho && posHamster2 != caminho){
 
-        system("clear");
+        #ifdef _WIN32
+        system("cls"); // Windows
+        #else
+        system("clear"); // Linux/macOS
+        #endif
 
         posHamster1 = corre(posHamster1);
         posHamster2 = corre(posHamster2);
 
         printf("\n Hamster 1 : ");
         for(int i=0; i<posHamster1; i++){
-            printf("%s", caminho);
+            printf("%s", passos);
         }
         printf("\n Hamster 2 : ");
         for(int i=0; i<posHamster2; i++){
-            printf("%s", caminho);
+            printf("%s", passos);
         }
 
         sleep(1);
 
     }
 
-    if(posHamster1==12 && posHamster2!=12){
+    if(posHamster1==caminho && posHamster2!=caminho){
         printf("\n\n Hamster 1 foi o grande vencedor!!\n");
     }
-    if(posHamster1!=12 && posHamster2==12){
+    if(posHamster1!=caminho && posHamster2==caminho){
         printf("\n\n Hamster 2 foi o grande vencedor!!\n");
     }
-    if(posHamster1==12 && posHamster2==12){
+    if(posHamster1==caminho && posHamster2==caminho){
         printf("\n\n Um Empate! Inacreditavel!!\n");
     }
 
